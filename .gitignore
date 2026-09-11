@@ -1,13 +1,4 @@
-# ---------------------------------------------------------------------------
-# Vendor firmware is NOT redistributed in this repository.
-#
-# It is the manufacturer's property, and the README documents the exact
-# content-addressed CDN link you can fetch it from instead. To vendor the
-# .dav deliberately, delete the `firmware/*.dav` line below - see README
-# "Legal" for the trade-off.
-# ---------------------------------------------------------------------------
-firmware/*.dav
-
+# The .dav image is vendored deliberately - see README "Legal".
 # Extracted artifacts — regenerate any time with ./unpack-dav.sh
 firmware/unpacked/
 firmware/rootfs/
